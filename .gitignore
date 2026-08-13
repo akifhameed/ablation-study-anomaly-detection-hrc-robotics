@@ -16,6 +16,8 @@ stochastic_PnP/
 # Draft write-ups, kept locally until submission.
 *.docx
 ~$*.docx
+*.tmp
+~WRL*.tmp
 
 # ---------- Python and Jupyter clutter ----------
 __pycache__/
