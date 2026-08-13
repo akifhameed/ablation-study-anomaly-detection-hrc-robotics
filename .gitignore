@@ -1,0 +1,29 @@
+# ---------- The dataset ----------
+# 6.9 GB, publicly available from Zenodo.
+# Anyone can download it; the README says where.
+stochastic_PnP/
+
+# ---------- Generated data ----------
+# combined_dataset.csv is 2.9 GB and is rebuilt by combined_dataset.ipynb.
+# GitHub rejects any file over 100 MB, so this must never be staged.
+*.csv
+
+# ---------- The virtual environment ----------
+# Thousands of files, machine-specific, and recreatable from requirements.txt.
+.venv/
+
+# ---------- My working documents ----------
+# Draft write-ups, kept locally until submission.
+*.docx
+~$*.docx
+
+# ---------- Python and Jupyter clutter ----------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---------- Editor and operating system ----------
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
