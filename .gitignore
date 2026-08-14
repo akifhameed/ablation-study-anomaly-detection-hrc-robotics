@@ -29,3 +29,8 @@ __pycache__/
 .cursor/
 .DS_Store
 Thumbs.db
+
+# ---------- Experiment results ----------
+# The line above hides the multi-gigabyte generated datasets, but the small
+# result tables inside results/ are the findings and must be kept.
+!results/**/*.csv
