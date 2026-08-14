@@ -1,0 +1,11 @@
+features      : 94
+batch size    : 512
+bottleneck    : 4
+hidden layer  : 64
+max epochs    : 50
+patience      : 10
+learning rate : 0.001
+seeds         : [0, 1, 2, 3, 4]
+val fraction  : 0.2
+mean ROC-AUC  : 0.7899
+mean PR-AUC   : 0.5168
