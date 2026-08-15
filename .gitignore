@@ -34,3 +34,14 @@ Thumbs.db
 # The line above hides the multi-gigabyte generated datasets, but the small
 # result tables inside results/ are the findings and must be kept.
 !results/**/*.csv
+# The ablation study writes to results_ablation, so rescue its tables too.
+!results_ablation/**/*.csv
+
+# ---------- Raw anomaly scores ----------
+# 5 seeds x 246,151 test rows per configuration, about 5 MB each. Regenerable
+# by re-running the notebook, so they stay local.
+*.npy
+
+# Any results folder (results, results_ablation, results_deep, and future ones).
+# This makes the two specific rules above redundant but harmless.
+!results*/**/*.csv
