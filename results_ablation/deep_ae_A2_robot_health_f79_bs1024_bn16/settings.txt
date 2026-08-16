@@ -1,0 +1,13 @@
+features      : 79
+batch size    : 1024
+bottleneck    : 16
+hidden layers : 64, 32
+max epochs    : 50
+patience      : 10
+learning rate : 0.001
+seeds         : [0, 1, 2, 3, 4]
+val fraction  : 0.2
+model         : deep_ae
+removed group : A2_robot_health
+mean ROC-AUC  : 0.9004
+mean PR-AUC   : 0.6772
