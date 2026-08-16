@@ -1,0 +1,13 @@
+features      : 88
+batch size    : 1024
+bottleneck    : 16
+hidden layer  : 64
+max epochs    : 50
+patience      : 10
+learning rate : 0.001
+seeds         : [0, 1, 2, 3, 4]
+val fraction  : 0.2
+model         : ae
+removed group : A2b_voltages
+mean ROC-AUC  : 0.8078
+mean PR-AUC   : 0.5499
